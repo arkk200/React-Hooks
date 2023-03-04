@@ -29,3 +29,8 @@ API 요청을 보내고 기다리고 있거나 등등 페이지 닫는 것을 �
 # **7. useBeforeLeave**
 
 useBeforeLeave는 마우스가 창에서 벗어나면 첫번째 인자의 콜백함수를 실행시키는 훅이다.
+
+# **8. useFadeIn**
+
+useFadeIn은 특정 요소에 fade in 애니메이션을 줄 수 있는 훅이다.<br>
+파라미터로 duration과 delay를 받는다.
