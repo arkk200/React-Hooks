@@ -6,6 +6,7 @@ import UseFadeIn from "./components/UseFadeIn";
 import UseFullScreen from "./components/UseFullScreen";
 import UseInput from "./components/UseInput";
 import UseNetwork from "./components/UseNetwork";
+import UseNotification from "./components/UseNotification";
 import UsePreventLeave from "./components/UsePreventLeave";
 import UseScroll from "./components/UseScroll";
 import UseTabs from "./components/UseTabs";
@@ -35,6 +36,8 @@ function App() {
       <UseScroll />
       <hr />
       <UseFullScreen />
+      <hr />
+      <UseNotification />
     </div>
   );
 }

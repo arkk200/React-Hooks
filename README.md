@@ -46,3 +46,8 @@ useScroll은 스크롤을 감지해서 window.scrollX, window.scrollY 값을 반
 # **11. useFullScreen**
 
 useFullScreen은 특정 요소를 크게 키우거나 원래데로 돌리는 함수를 반환하고 그때 실행할 함수를 인자로 받는 훅이다.
+
+# **12. useNotification**
+
+useNotification은 브라우저에서 유저에게 알림 권한을 요청하는 창을 띄우는 함수를 반환하는 훅입니다.<br>
+첫번째 인자에 Notification 클래스의 title, 두번째 인자의 Notification 클래스의 options를 달 수 있습니다.
