@@ -34,3 +34,7 @@ useBeforeLeave는 마우스가 창에서 벗어나면 첫번째 인자의 콜백
 
 useFadeIn은 특정 요소에 fade in 애니메이션을 줄 수 있는 훅이다.<br>
 파라미터로 duration과 delay를 받는다.
+
+# **9. useNetwork**
+
+useNetwork는 온라인/오프라인이 전환될 때마다 특정함수를 실행하고 온라인지 아닌지 boolean 값을 반환해주는 훅이다.

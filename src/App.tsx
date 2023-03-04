@@ -4,6 +4,7 @@ import UseClick from "./components/UseClick";
 import UseConfirm from "./components/UseConfirm";
 import UseFadeIn from "./components/UseFadeIn";
 import UseInput from "./components/UseInput";
+import UseNetwork from "./components/UseNetwork";
 import UsePreventLeave from "./components/UsePreventLeave";
 import UseTabs from "./components/UseTabs";
 import UseTitle from "./components/UseTitle";
@@ -26,6 +27,8 @@ function App() {
       <UseBeforeLeave />
       <hr />
       <UseFadeIn />
+      <hr />
+      <UseNetwork />
     </div>
   );
 }
