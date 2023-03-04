@@ -15,3 +15,8 @@ useTitle은 html에 title태그의 글자를 바꿔주는 함수를 반환하는
 
 useClick은 요소에 클릭 이벤트 부여해주는 훅이다.<br>
 addEventListener 메소드를 이용하고, 컴포넌트가 사라질 때 이벤트가 사라진다.
+
+# **5. useConfirm**
+
+useConfirm은 confirm을 띄워주는 함수를 반환하는 훅이다.<br>
+첫번째 인자로 메세지, 두번째는 확인 시 실행할 콜백함수, 세번째는 취소 시 실행할 콜백함수가 들어간다.
