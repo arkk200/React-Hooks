@@ -6,6 +6,7 @@ import UseFadeIn from "./components/UseFadeIn";
 import UseInput from "./components/UseInput";
 import UseNetwork from "./components/UseNetwork";
 import UsePreventLeave from "./components/UsePreventLeave";
+import UseScroll from "./components/UseScroll";
 import UseTabs from "./components/UseTabs";
 import UseTitle from "./components/UseTitle";
 
@@ -29,6 +30,8 @@ function App() {
       <UseFadeIn />
       <hr />
       <UseNetwork />
+      <hr />
+      <UseScroll />
     </div>
   );
 }

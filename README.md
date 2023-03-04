@@ -38,3 +38,7 @@ useFadeIn은 특정 요소에 fade in 애니메이션을 줄 수 있는 훅이�
 # **9. useNetwork**
 
 useNetwork는 온라인/오프라인이 전환될 때마다 특정함수를 실행하고 온라인지 아닌지 boolean 값을 반환해주는 훅이다.
+
+# **10. useScroll**
+
+useScroll은 스크롤을 감지해서 window.scrollX, window.scrollY 값을 반환하는 훅이다.

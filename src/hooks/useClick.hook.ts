@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export const useClick = <T,>(onClick: () => any) => {
+export const useClick = <T>(onClick: () => any) => {
   const elementRef = useRef<T>(null);
   useEffect(() => {
     const element = elementRef.current;
