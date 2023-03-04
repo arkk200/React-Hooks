@@ -51,3 +51,7 @@ useFullScreen은 특정 요소를 크게 키우거나 원래데로 돌리는 함
 
 useNotification은 브라우저에서 유저에게 알림 권한을 요청하는 창을 띄우는 함수를 반환하는 훅입니다.<br>
 첫번째 인자에 Notification 클래스의 title, 두번째 인자의 Notification 클래스의 options를 달 수 있습니다.
+
+# **13. useAxios**
+
+useAxios는 옵션과 axios 또는 axios 인스턴스를 받는 훅으로, laoding과 데이터, error와 refetch 함수를 반환한다.

@@ -1,4 +1,5 @@
 import React from "react";
+import UseAxios from "./components/UseAxios";
 import UseBeforeLeave from "./components/UseBeforeLeave";
 import UseClick from "./components/UseClick";
 import UseConfirm from "./components/UseConfirm";
@@ -38,6 +39,8 @@ function App() {
       <UseFullScreen />
       <hr />
       <UseNotification />
+      <hr />
+      <UseAxios />
     </div>
   );
 }
