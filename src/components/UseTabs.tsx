@@ -16,7 +16,7 @@ function UseTabs() {
   return (
     <div>
       {content.map((section, idx) => (
-        <button onClick={() => changeItem && changeItem(idx)}>
+        <button onClick={() => changeItem && changeItem(idx)} key={idx}>
           {section.tab}
         </button>
       ))}

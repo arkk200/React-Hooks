@@ -10,3 +10,8 @@ useTabs는 디폴트 인덱스와 tab 배열을 받고 현재 탭과 탭 변경 
 # **3. useTitle**
 
 useTitle은 html에 title태그의 글자를 바꿔주는 함수를 반환하는 훅이다.
+
+# **4. useClick**
+
+useClick은 요소에 클릭 이벤트 부여해주는 훅이다.<br>
+addEventListener 메소드를 이용하고, 컴포넌트가 사라질 때 이벤트가 사라진다.
