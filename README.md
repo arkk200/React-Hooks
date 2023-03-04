@@ -25,3 +25,7 @@ useConfirm은 confirm을 띄워주는 함수를 반환하는 훅이다.<br>
 
 usePreventLeave는 사용자에게 페이지를 떠날지 묻는 창을 활성화하는 함수와 비활성화하는 함수를 반환하는 훅이다.<br>
 API 요청을 보내고 기다리고 있거나 등등 페이지 닫는 것을 막고 싶을 때 사용할 수 있다.
+
+# **7. useBeforeLeave**
+
+useBeforeLeave는 마우스가 창에서 벗어나면 첫번째 인자의 콜백함수를 실행시키는 훅이다.

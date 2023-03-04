@@ -1,4 +1,5 @@
 import React from "react";
+import UseBeforeLeave from "./components/UseBeforeLeave";
 import UseClick from "./components/UseClick";
 import UseConfirm from "./components/UseConfirm";
 import UseInput from "./components/UseInput";
@@ -20,6 +21,8 @@ function App() {
       <UseConfirm />
       <hr />
       <UsePreventLeave />
+      <hr />
+      <UseBeforeLeave />
     </div>
   );
 }
