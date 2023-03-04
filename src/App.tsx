@@ -3,6 +3,7 @@ import UseBeforeLeave from "./components/UseBeforeLeave";
 import UseClick from "./components/UseClick";
 import UseConfirm from "./components/UseConfirm";
 import UseFadeIn from "./components/UseFadeIn";
+import UseFullScreen from "./components/UseFullScreen";
 import UseInput from "./components/UseInput";
 import UseNetwork from "./components/UseNetwork";
 import UsePreventLeave from "./components/UsePreventLeave";
@@ -32,6 +33,8 @@ function App() {
       <UseNetwork />
       <hr />
       <UseScroll />
+      <hr />
+      <UseFullScreen />
     </div>
   );
 }

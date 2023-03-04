@@ -42,3 +42,7 @@ useNetwork는 온라인/오프라인이 전환될 때마다 특정함수를 실�
 # **10. useScroll**
 
 useScroll은 스크롤을 감지해서 window.scrollX, window.scrollY 값을 반환하는 훅이다.
+
+# **11. useFullScreen**
+
+useFullScreen은 특정 요소를 크게 키우거나 원래데로 돌리는 함수를 반환하고 그때 실행할 함수를 인자로 받는 훅이다.
