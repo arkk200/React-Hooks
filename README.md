@@ -60,3 +60,18 @@ useAxios는 옵션과 axios 또는 axios 인스턴스를 받는 훅으로, laodi
 
 노마드코더 강의 사이트에서 위 훅들을 따라 만들어봤는데 확실히 커스텀 훅을 이해하는데 도움이 많이 되었다.<br>
 다음에 배운 훅들을 응용해서 커스텀 훅 디자인 패턴으로 프로젝트를 한번 만들어봐야겠다.
+
+# **14. npm에 커스텀 훅 배포하기**
+
+먼저 배포할 훅의 폴더에 `npm init`으로 package.json을 만들어준다.<br>
+패키지 명은 @(나중에 만들 npm organization 이름)/패지지명 형식으로 하면 된다.<br>
+keywords는 쉼표로 구분해서 관련 키워드를 넣으면 된다.<br>
+만들어진 package.json에 scrinpts 부분은 필요없으니 삭제한다.
+
+그리고 해당 폴더에 새로 package.json을 만들었으므로 npm install로 react와 react-dom을 설치해야한다.<br>
+그리고 설치된 react와 react-dom 정보가 있는 dependencies 이름을 peerDependencies로 바꿔주는데 이 설정은 이 패키지들은 요구되지만 설치할 필요가 없다는 설정이다.
+
+[https://www.npmjs.com/org/create](https://www.npmjs.com/org/create) 주소로 들어가서 Organization을 만들고 (이때 npm init을 통해 만들었던 패키지 명에 슬래쉬 앞에 이름으로 만들면 된다.) 터미널로 돌아와서 npm login을 통해 위 사이트에서 만들었던 계정으로 로그인한다.
+
+터미널에서 배포하려는 폴더에 들어간 후 npm publish --access public을 하면 배포가 된다.<br>
+배포된 패키지는 만든 npm 사이트에 Organization에 들어있는데 npm i로 설치하면 사용할 수 있다.

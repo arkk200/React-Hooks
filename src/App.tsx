@@ -1,4 +1,5 @@
 import React from "react";
+import ArkkHooksUseTitle from "./components/ArkkHooksUseTitle";
 import UseAxios from "./components/UseAxios";
 import UseBeforeLeave from "./components/UseBeforeLeave";
 import UseClick from "./components/UseClick";
@@ -11,7 +12,6 @@ import UseNotification from "./components/UseNotification";
 import UsePreventLeave from "./components/UsePreventLeave";
 import UseScroll from "./components/UseScroll";
 import UseTabs from "./components/UseTabs";
-import UseTitle from "./components/UseTitle";
 
 function App() {
   return (
@@ -19,8 +19,6 @@ function App() {
       <UseInput />
       <hr />
       <UseTabs />
-      <hr />
-      <UseTitle />
       <hr />
       <UseClick />
       <hr />
@@ -41,6 +39,8 @@ function App() {
       <UseNotification />
       <hr />
       <UseAxios />
+      <hr />
+      <ArkkHooksUseTitle />
     </div>
   );
 }

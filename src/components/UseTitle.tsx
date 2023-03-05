@@ -1,4 +1,4 @@
-import { useTitle } from "../hooks/useTitle.hook";
+import { useTitle } from "../hooks/useTitle/useTitle.hook";
 
 function UseTitle() {
   const titleUpdater = useTitle("Loading...");
